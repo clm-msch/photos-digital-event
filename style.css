@@ -14,10 +14,8 @@ html{
     align-items: center;
     justify-content: space-between;
     margin-top: 2%;
-    list-style-type: none;
     padding: 25px;
-    
-   }
+    }
 
 /* 1ere section */
 
@@ -27,7 +25,7 @@ body {
     background-image: url(./img/paper_3.png);
     z-index: 0;
     font-family: 'Rockwell', serif;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     margin: 0;
    
 
@@ -477,6 +475,7 @@ body {
     background-image: url("grid-img/C.png");
     width: 252px;
     height: 168px;
+    z-index: -2;
 }
 /* Selection de  F et K*/
 .grid-container-f-k {
@@ -520,8 +519,8 @@ body {
 .grid-container-f-k > div:nth-child(2) img:nth-child(1) {
     position: absolute;
     top: -30px;
-    right: -90px;
-    transform: rotate(45deg);
+    right: -20px;
+    z-index: 4;
     transform-origin: top left;
 }
 /* Selection de  N*/
