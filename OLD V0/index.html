@@ -1,55 +1,58 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Document</title>
 		<link rel="stylesheet" href="./style.css" />
 	</head>
+
 	<style>
 		@import url("https://fonts.googleapis.com/css2?family=Arvo&display=swap");
 	</style>
-
 	<body>
-		<nav>
-			<ul class="navbar">
-				<li>← Selection Des Semaines</li>
-				<li>Digital Event 2024 Paris →</li>
-			</ul>
-		</nav>
-		<main class="main-back">
-			<section id="section1">
-				<div class="container">
-					<div class="digital_event">
-						<img id="image1" src="./img/manu.png" alt="img" />
-						<img id="img_rotation" src="./img/1.png" alt="img" />
+		<div id="myModal" class="modal">
+			<span class="close" onclick="closeModal()">&times;</span>
+			<div class="modal-content">
+				<img id="modalImg" />
+			</div>
+		</div>
+		<main id="container">
+			<header id="header">
+				<ul class="navbar">
+					<li><span>&#8592;</span>SELECTIONS DES SEMAINES</li>
+					<li>DIGITAL EVENT 2024<span>&#8594;</span></li>
+				</ul>
+			</header>
 
-						<div class="week_1">
-							<h1>SEMAINE 1</h1>
-							<p>
-								Décollage numérique! Des conférences,<br />des
-								projets futuristes et des ateliers<br />
-								délirants t'attendent.Prépare-toi pour<br />
-								une semaine digitale à couper le souffle!
-							</p>
-							<br />
-							<p>30/01/2024</p>
-							<br />
-							<p class="author">
-								"Deux semaine super intense et j'ai adoré" Sacha
-							</p>
-							<img
-								id="stamps"
-								src="./img/tt 1.png"
-								alt="stamps"
-							/>
-						</div>
+			<section id="section">
+				<div class="digital_event">
+					<div class="week_1">
+						<h1>SEMAINE 1</h1>
+						<p class="text">
+							Décollage numérique! Des conférences inspirantes,
+							des projets futuristes et des ateliers délirants
+							t'attendent. Prépare-toi pour une semaine digitale à
+							couper le souffle !
+						</p>
+
+						<p class="author">
+							"Deux semaine super intense et j'ai adoré" Sacha
+						</p>
+
+						<img id="stamps" src="./img/de.png" alt="stamps" />
 					</div>
-				</div>
-				<div class="ligne">
+
 					<img
-						src="./img/ligne separation.png"
-						alt="ligne de séparation"
+						src="./img/picture3.png"
+						alt="img"
+						id="image1"
+						onclick="openModal('image1')"
+					/>
+					<img
+						id="img_rotation"
+						src="./img/picture.png"
+						alt="image1"
 					/>
 				</div>
 			</section>
@@ -60,19 +63,24 @@
 						<div class="col-7">
 							<img
 								id="picture-left-top"
-								src="/img/haut photo good.png"
+								src="/img/coeur1.png"
 								alt="img"
 							/>
 							<img
 								id="picture-left-bottom"
-								src="/img/Bas photos GOOD.png"
+								src="/img/violet1.png"
 								alt="img"
 							/>
 						</div>
+
 						<div class="col-5">
+							<p>
+								“C’était l’occasion de rencontrer de nouvelles
+								personnes” Julie
+							</p>
 							<img
 								id="picture-right"
-								src="./img/5.png"
+								src="./img/Group 2.png"
 								alt="img"
 							/>
 
@@ -89,39 +97,45 @@
 
 			<section id="section3">
 				<img src="img/logo.png" alt="logo" id="logo" />
-				<img src="img/6.png" alt="img" id="picture" />
+				<img src="img/picture4.png" alt="img" id="picture" />
 			</section>
 
 			<section id="section4">
 				<div class="container4">
 					<div class="row" id="box">
-						<div class="col-5" id="columnLeft">
+						<div class="col-4" id="columnLeft">
 							<ul class="photo">
-								<img class="flex-item" src="img/7.png" alt="" />
-								<img class="flex-item" src="img/8.png" alt="" />
-								<img class="flex-item" src="img/9.png" alt="" />
+								<img
+									class="flex-item"
+									src="img/IMAGE 5.png"
+									alt=""
+								/>
+								<img
+									class="flex-item"
+									src="img/IMAGE 6.png"
+									alt=""
+								/>
+								<img
+									class="flex-item"
+									src="img/IMAGE 7.png"
+									alt=""
+								/>
 							</ul>
 						</div>
-						<div class="col-7" id="columnRight">
-							<div class="pictureText">
-								<div id="scotchTop"></div>
-								<img
-									src="img/10.png"
-									alt=""
-									width="320"
-									height="430"
-									id="ticket"
-								/>
+
+						<div class="col-8" id="columnRight">
+							<div>
+								<img src="img/ticket2.png" alt="" id="ticket" />
+								<p class="textEvent">
+									Les évènements marquants de la semaine
+									capturé en photo. Découvrez nos meilleurs
+									moments de la semaine.
+								</p>
+								<p class="textAuthor">
+									“Une ambiance de fou malade le Digital Event
+									! ” Sacha
+								</p>
 							</div>
-							<p class="textEvent">
-								Les évènements marquants de la semaine capturé
-								en photo. Découvrez nos meilleurs moments de la
-								semaine.
-							</p>
-							<p class="textAuthor">
-								“Une ambiance de fou malade le Digital Event ! ”
-								Sacha
-							</p>
 
 							<div id="logo_2">
 								<img
@@ -136,6 +150,7 @@
 					</div>
 				</div>
 			</section>
+
 			<section id="section5">
 				<div class="grid-title">
 					<h2>LE MEILLEUR DE LA SEMAINE</h2>
@@ -204,5 +219,23 @@
 				</div>
 			</section>
 		</main>
+		<script>
+			// code pour le zoom sur les images
+			const imageUrls = [{ key: "image1", url: "./img/picture3.png" }]
+
+			function openModal(imageKey) {
+				document.getElementById("myModal").style.display = "block"
+				document.getElementById("modalImg").src = getImageUrl(imageKey)
+			}
+
+			function closeModal() {
+				document.getElementById("myModal").style.display = "none"
+			}
+
+			function getImageUrl(imageKey) {
+				const image = imageUrls.find((img) => img.key === imageKey)
+				return image ? image.url : ""
+			}
+		</script>
 	</body>
 </html>
