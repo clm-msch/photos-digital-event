@@ -25,7 +25,7 @@ body {
     background-image: url(./img/paper_3.png);
     z-index: 0;
     font-family: 'Rockwell', serif;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
     margin: 0;
    
 
@@ -782,13 +782,13 @@ body {
         height: 73,2vh;
     }
     #logo {
-        display: flex;
+        /* display: flex;
         z-index: 1;
-        scale: 0.5;
-        align-items: end;
+        scale: 0.4;
         position: absolute;
         left: 27%;
-        top: 210%;
+        top: 700px; */
+        display: none;
     }
     .col-5 p{
         text-align: left;
