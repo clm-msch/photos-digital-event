@@ -1,13 +1,233 @@
 <!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Template HTML basic</title>
-    <link rel="stylesheet" href="./assets/css/app.css ">
-</head>
-<body>
-    Hello world ! 
-    <script src="/assets/js/app.js"></script>
-</body>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="./style.css" />
+	</head>
+
+	<style>
+		@import url("https://fonts.googleapis.com/css2?family=Arvo&display=swap");
+	</style>
+	<body>
+		<div id="myModal" class="modal">
+			<span class="close" onclick="closeModal()">&times;</span>
+			<div class="modal-content">
+				<img id="modalImg" />
+			</div>
+		</div>
+		<main id="container">
+			<header id="header">
+				<ul class="navbar">
+					<li><span>&#8592;</span>SELECTIONS DES SEMAINES</li>
+					<li>DIGITAL EVENT 2024<span>&#8594;</span></li>
+				</ul>
+			</header>
+
+			<section id="section">
+				<div class="digital_event">
+					<div class="week_1">
+						<h1>SEMAINE 1</h1>
+						<p class="text">
+							Décollage numérique! Des conférences inspirantes,
+							des projets futuristes et des ateliers délirants
+							t'attendent. Prépare-toi pour une semaine digitale à
+							couper le souffle !
+						</p>
+
+						<p class="author">
+							"Deux semaine super intense et j'ai adoré" Sacha
+						</p>
+
+						<img id="stamps" src="./img/de.png" alt="stamps" />
+					</div>
+
+					<img src="./img/picture3.png" alt="img" id="image1" onclick="openModal('image1')" />
+					<img id="img_rotation" src="./img/picture.png" alt="image1" />
+				</div>
+			</section>
+
+			<section id="section2">
+				<div class="container-photo">
+					<div class="row">
+						<div class="col-7">
+							<img
+								id="picture-left-top"
+								src="/img/coeur1.png"
+								alt="img"
+							/>
+							<img
+								id="picture-left-bottom"
+								src="/img/violet1.png"
+								alt="img"
+							/>
+						</div>
+
+						<div class="col-5">
+							<p>
+								“C’était l’occasion de rencontrer de nouvelles
+								personnes” Julie
+							</p>
+							<img
+								id="picture-right"
+								src="./img/Group 2.png"
+								alt="img"
+							/>
+
+							<p>
+								L'atelier site web, c'est comme un terrain de
+								jeu où le code devient une aventure ludique. Des
+								rires, des pixels, et une tonne de fun en
+								apprenant à créer des sites qui en jettent.
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="section3">
+				<img src="img/logo.png" alt="logo" id="logo" />
+				<img src="img/picture4.png" alt="img" id="picture" />
+			</section>
+
+			<section id="section4">
+				<div class="container4">
+					<div class="row" id="box">
+						<div class="col-4" id="columnLeft">
+							<ul class="photo">
+								<img
+									class="flex-item"
+									src="img/IMAGE 5.png"
+									alt=""
+								/>
+								<img
+									class="flex-item"
+									src="img/IMAGE 6.png"
+									alt=""
+								/>
+								<img
+									class="flex-item"
+									src="img/IMAGE 7.png"
+									alt=""
+								/>
+							</ul>
+						</div>
+
+						<div class="col-8" id="columnRight">
+							<div>
+								<img src="img/ticket2.png" alt="" id="ticket" />
+								<p class="textEvent">
+									Les évènements marquants de la semaine
+									capturé en photo. Découvrez nos meilleurs
+									moments de la semaine.
+								</p>
+								<p class="textAuthor">
+									“Une ambiance de fou malade le Digital Event
+									! ” Sacha
+								</p>
+							</div>
+
+							<div id="logo_2">
+								<img
+									src="img/logo2.png"
+									alt=""
+									class="logoWeb"
+									width="250"
+									height="200"
+								/>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="section5">
+				<div class="grid-title">
+					<h2>LE MEILLEUR DE LA SEMAINE</h2>
+					<p>
+						Les évènements marquants de la semaine capturé en photo.
+						Découvrez nos meilleurs moments de la semaine.
+					</p>
+				</div>
+				<div class="grid-gallery-container">
+					<div class="grid-gallery-column-1">
+						<div>
+							<img src="img/scotch-blue.png" />
+							<img src="img/scotch-dark.png" />
+						</div>
+						<div class="grid-container-e-h-j">
+							<div><img src="img/scotch-dark.png" /></div>
+							<div></div>
+							<div class="grid-content">
+								<h3>UNE SEMAINE DE BRICOLAGE</h3>
+								<p>
+									La team escape game se mène à la tâche et
+									font de la peinture, déplace des meubles,
+									... pour vous préparer un escape d'exception
+									pour la semaine prochaine.!
+								</p>
+							</div>
+						</div>
+						<div><img src="img/scotch-blue.png" /></div>
+					</div>
+					<div class="grid-gallery-column-2">
+						<div class="grid-container-b-c">
+							<div></div>
+							<div></div>
+						</div>
+						<div class="grid-container-f-k">
+							<div>
+								<img src="img/scotch-blue.png" />
+								<img src="img/scotch-dark.png" />
+							</div>
+							<div><img src="img/scotch-blue.png" /></div>
+						</div>
+						<div></div>
+					</div>
+					<div class="grid-gallery-column-3">
+						<div>
+							<img src="img/scotch-dark.png" />
+							<img src="img/scotch-blue.png" />
+						</div>
+						<div class="grid-container-g-i">
+							<div class="grid-content">
+								<h3>UNE SEMAINE DE FUN</h3>
+								<p>
+									Plusieurs animations proposées par la team
+									orga, du divertissement pour les étudiants.
+									Beaucoup de rires et de bonnes humeurs !
+								</p>
+							</div>
+							<div>
+								<img src="img/scotch-blue.png" />
+								<img src="img/scotch-dark.png" />
+							</div>
+						</div>
+						<div></div>
+						<div><img src="img/scotch-dark.png" /></div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<script>
+			// code pour le zoom sur les images
+			const imageUrls = [
+				{ key: "image1", url: "./img/picture3.png" },
+			]
+
+			function openModal(imageKey) {
+				document.getElementById("myModal").style.display = "block"
+				document.getElementById("modalImg").src = getImageUrl(imageKey)
+			}
+
+			function closeModal() {
+				document.getElementById("myModal").style.display = "none"
+			}
+
+			function getImageUrl(imageKey) {
+				const image = imageUrls.find((img) => img.key === imageKey)
+				return image ? image.url : ""
+			}
+		</script>
+	</body>
 </html>
