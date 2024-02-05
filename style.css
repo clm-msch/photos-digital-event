@@ -613,6 +613,7 @@ body {
     left: 0;
     bottom: 0;
     width: 100%;
+    padding: 15px;
     background-color: #F1F1F1;
     color: black;
     text-align: center;
@@ -1010,5 +1011,4 @@ body {
         bottom: 230px;
         left: -150px;
     }
-}
 }
