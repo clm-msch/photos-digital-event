@@ -637,7 +637,6 @@ body {
 .footer > div > a:hover {
     color: #565555;
 }
-
 @media screen and (max-width: 768px) {
     .navbar{
         display: flex;
@@ -646,11 +645,8 @@ body {
         margin-top: 2%;
         list-style-type: none;
         padding: 25px;
-        
        }
-    
     /* 1ere section */
-    
     body {
         height: 100vh;
         width: 100vw;
@@ -659,22 +655,15 @@ body {
         font-family: 'Rockwell', serif;
         /*overflow-x: hidden;*/
         margin: 0;
-       
-    
     }
     .ligne img {
         width: 100vw;
         height: auto;
     }
-    
-    .main-back{ 
+    .main-back{
         background: url(/img/trait-reportage-photo.png);
         width: 100vw;
-    
     }
-    
-    
-    
     .container {
         margin-left: auto;
         margin-right: auto;
@@ -683,12 +672,8 @@ body {
         width: 95vw;
         text-align: center;
         height: 100vh;
-    
         background-image: url(./img/cadran-mobile.png);
-        
-    
     }
-    
     .digital_event {
         position: relative;
         display: flex;
@@ -696,17 +681,12 @@ body {
         justify-content: center;
         padding: 15%;
         scale: 1.2;
-        
-    
     }
-    
     #image1 {
-        
         width: 60vw;
         margin-top: 0px;
         margin-left: 10px;
     }
-    
     .week_1 h1 {
         margin-top: 10px;
         text-align: start;
@@ -715,13 +695,11 @@ body {
         font-size: 40px;
         color: #00C4B3;
     }
-    
     .week_1 {
         text-align: start;
         flex: 1;
         padding: 0%;
     }
-    
     .week_1 p {
         margin-top: -25px;
         margin-right: 45px;
@@ -729,25 +707,19 @@ body {
         text-align: left;
         font-size: 12px;
     }
-    
-    
     .author {
         font-style: italic;
         color: #777;
         margin-top: -30px;
     }
-    
     #img_rotation {
-    
         width: 50%;
         transform: rotate(15deg);
         left: 15%;
         top: 500px;
         position: absolute;
         filter: drop-shadow(5px 5px 4px black);
-    
     }
-    
     #stamps {
      position: absolute;
      left: 10%;
@@ -755,7 +727,6 @@ body {
      width: 24%;
      height: auto;
     }
-    
     /* 2eme section - photos */
     #section2 {
         display: flex;
@@ -764,10 +735,7 @@ body {
         left: 50%;
         right: 50%;
         margin-bottom: 40px;
-    
-    
     }
-    
     .container-photo {
         display: flex;
         align-items: center;
@@ -779,10 +747,10 @@ body {
         flex-direction: row-reverse;
         margin-bottom: 70px;
     }
-    
     .row {
         display: flex;
         justify-content: center;
+        align-items: center;
         flex-direction: column;
         grid-template-columns: repeat(1, 2fr);
         align-items: center;
@@ -790,34 +758,22 @@ body {
         gap: 30px;
         padding: 20px;
     }
-    
     #picture-left-bottom {
-        height: 156px;
-        width: 430px;
+        height: 138px;
+        width: 380px;
         filter: drop-shadow(0px -5px 4px black);
-        
-    
     }
-    
     #picture-left-top {
-    
-        height: 156px;
-        width: 430px;
+        height: 138px;
+        width: 380px;
         filter: drop-shadow(0px 5px 4px black);
-        
-    
     }
-    
     #picture-right {
-    
-        height: 259px;
-        width: 347px;
+        height: 238px;
+        width: 320px;
         margin-top: 20px;
         margin-left: 40px;
-    
-    
     }
-    
     /* 3eme section */
     #picture {
         position: relative;
@@ -825,27 +781,23 @@ body {
         width: 100vw;
         height: 73,2vh;
     }
-    
     #logo {
         display: flex;
         z-index: 1;
         scale: 0.5;
         align-items: end;
         position: absolute;
-        left: 47%;
+        left: 27%;
         top: 210%;
-    
     }
-    
     .col-5 p{
-    
         text-align: left;
-        width: 100%;
+        width: 80%;
         color: #000000;
         font-weight: normal;
         font-family: 'Rockwell', serif;
+        margin-left: 45px;
     }
-    
     #section4 {
         display: flex;
         justify-content: center;
@@ -853,20 +805,14 @@ body {
         left: 50%;
         right: 50%;
         margin-bottom: 40px;
-    
-    
     }
-    
     .container4 {
         display: flex;
         justify-content: center;
         width: 100%;
-        
         text-align: start;
         /* padding: 20px; */
-        
     }
-    
     #box {
         display: flex;
         flex-direction: column;
@@ -876,61 +822,50 @@ body {
         width: 100%;
         gap: 30px;
     }
-    
-    
-    
     #columnLeft {
         width: 50%;
         height: 100%;
+        margin-left: -60px;
         display: flex;
         background-color: #181434;
         flex-flow: column wrap;
         justify-content: center;
     }
-    
     #columnRight {
         width: 80%;
         height: 100%;
         margin-top: 20px;
-        margin-left: -0px;
+        margin-left: -60px;
     }
-    
-    
     .flex-item {
         width: 200px;
         height: 250px;
         margin-bottom: 10px;
         filter: drop-shadow(5px 5px 4px black);
     }
-    
     .pictureText {
         width: 90%;
         height: 55%;
-        
     }
-    
     #ticket{
         margin-left: 0;
     }
-    
     #logo_2 {
         width: 90%;
         height: 20%;
         margin: auto;
         scale: 0.6;
     }
-    
     .textEvent {
         margin-top: 30px;
         text-align: left;
-        width: 80%;
+        width: 100%;
         margin-left: 0px;
         font-family: 'Rockwell', serif;
     }
     .textAuthor {
-    
         text-align: left;
-        width: 80%;
+        width: 100%;
         color: #000000;
         font-weight: bolder;
         font-family: 'Rockwell', serif;
@@ -940,7 +875,6 @@ body {
     /* Grid Section */
     #section5{
         margin-top: -40px;
-
     }
     .grid-title {
         background-image: none;
@@ -965,7 +899,8 @@ body {
     /* Selection A */
     .grid-gallery-column-1 > :nth-child(1) {
         position: relative;
-        left: 100px;
+        left: 50px;
+        scale: 0.8;
     }
     /* Selection de E H J */
     .grid-container-e-h-j {
@@ -976,24 +911,26 @@ body {
     /* Selection de  E*/
     .grid-container-e-h-j > :nth-child(1) {
         position: relative;
-        left: 140px;
+        left: 100px;
     }
     /* Selection de  H*/
     .grid-container-e-h-j > :nth-child(2) {
         left: 50px;
+        scale: 0.9;
     }
     /* Selection de  J*/
     .grid-container-e-h-j > :nth-child(3) {
         position: relative;
-        top: 100px;
+        top: 60px;
         width: 160px;
-        margin-left: 65px;
+        margin-left: 55px;
     }
     /* Selection de  M*/
     .grid-gallery-column-1 > :nth-child(3) {
         position: relative;
-        bottom: 90px;
-        left: 230px;
+        bottom: 80px;
+        left: 180px;
+        scale: 0.65;
     }
     /* Selection de  B et C*/
     .grid-container-b-c {
@@ -1003,41 +940,44 @@ body {
     /* Selection de  B*/
     .grid-container-b-c > div:nth-child(1) {
         position: relative;
-        left: 50px;
-        top: -80px;
+        left: 60px;
+        top: -130px;
     }
     /* Selection de  C*/
     .grid-container-b-c > div:nth-child(2) {
         position: relative;
         top: 25px;
-        left: 50px;
+        left: -40px;
     }
     /* Selection de  F et K*/
     .grid-container-f-k {
-        flex-direction: row;
+        flex-direction: column;
         gap: 20px;
     }
     /* Selection de  F*/
     .grid-container-f-k > div:nth-child(1) {
         position: relative;
-        left: 15px;
-        bottom: 90px;
+        left: 90px;
+        bottom: 0px;
     }
     /* Selection de  K*/
     .grid-container-f-k > div:nth-child(2) {
         position: relative;
-        left: -50px;
+        left: 90px;
+        bottom: -20px;
         z-index: -1;
     }
     /* Selection de  N*/
     .grid-gallery-column-2 > div:nth-child(3) {
         position: relative;
-        left: 50px;
+        left: 0px;
+        scale: 0.7;
     }
     /* Selection de  D*/
     .grid-gallery-column-3 > div:nth-child(1) {
         position: relative;
-        left: -15px;
+        left: -25px;
+        scale: 0.8;
     }
     /* Selection de  G et I */
     .grid-container-g-i {
@@ -1046,26 +986,29 @@ body {
     /* Selection de  G*/
     .grid-container-g-i > div:nth-child(1) {
         position: relative;
-        bottom: 270px;
-        right: 265px;
-        width: 180px;
+        bottom: 350px;
+        right: 270px;
+        width: 120px;
     }
     /* Selection de  I*/
     .grid-container-g-i > div:nth-child(2) {
         position: relative;
-        bottom: 160px;
-        left: 0px;
+        bottom: 200px;
+        left: -20px;
+        scale: 0.8;
     }
     /* Selection de  L*/
     .grid-gallery-column-3 > div:nth-child(3) {
         position: relative;
-        bottom: 150px;
-        left: -90px;
+        bottom: 230px;
+        left: -50px;
+        scale: 0.9;
     }
     /* Selection de  O*/
     .grid-gallery-column-3 > div:nth-child(4) {
         position: relative;
-        bottom: 150px;
-        left: -200px;
+        bottom: 230px;
+        left: -150px;
     }
+}
 }
