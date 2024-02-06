@@ -3,7 +3,7 @@
 @font-face {
     font-family: 'Rockwell';
     src: url(./fonts/ROCK.TTF) format(truetype);
-    src: url(./fonts/ROCK.TTF) format(open-type);
+    src: url(./fonts/ROCK.TTF) format(open-type)
 
 }
 html{
@@ -12,9 +12,6 @@ html{
 
 /* barre de navigation */
 .navbar{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     margin-top: 2%;
     padding: 25px;
     }
@@ -28,6 +25,10 @@ html{
     margin: 5px;
     text-decoration: none;
     color: black;
+}
+
+.navbar a:hover{
+    color: #00C4B3;
 }
 
 /* 1ere section */
@@ -64,8 +65,7 @@ body {
     height: auto;
     text-align: center;
     height: 100vh;
-
-    background-image: url(./img/Cadran\ \(1\).png);
+    background-image: url("./img/cadran-1.png");
     background-size: contain;
     background-repeat: no-repeat;
     
@@ -651,14 +651,6 @@ body {
     color: #565555;
 }
 @media screen and (max-width: 768px) {
-    .navbar{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        margin-top: 2%;
-        list-style-type: none;
-        padding: 25px;
-       }
     /* 1ere section */
     body {
         height: 100vh;
