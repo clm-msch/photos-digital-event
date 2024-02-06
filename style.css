@@ -672,7 +672,10 @@ body {
         align-items: start;
         width: 95vw;
         text-align: center;
-        height: 100vh;
+        min-height: 100vh;
+        background-image: contain;
+        padding: 20px;
+        /* height: 100vh; */
         background-image: url(./img/cadran-mobile.png);
     }
     .digital_event {
@@ -693,7 +696,7 @@ body {
         text-align: start;
         font-family: 'Rockwell', serif;
         font-weight: 600px;
-        font-size: 40px;
+        font-size: 30px;
         color: #00C4B3;
     }
     .week_1 {
