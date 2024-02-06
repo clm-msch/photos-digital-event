@@ -2,7 +2,9 @@
 
 @font-face {
     font-family: 'Rockwell';
-    src: url(./font/ROCK.TTF) format(truetype);
+    src: url(./fonts/ROCK.TTF) format(truetype);
+    src: url(./fonts/ROCK.TTF) format(open-type);
+
 }
 html{
     scroll-behavior: smooth;
