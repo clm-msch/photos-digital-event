@@ -666,7 +666,6 @@ body {
         font-family: 'Rockwell', serif;
         /*overflow-x: hidden;*/
         margin: 0;
-        margin-left: 4px;
     }
     .ligne img {
         width: 100vw;
@@ -681,7 +680,7 @@ body {
         margin-right: auto;
         display: flex;
         align-items: start;
-        width: 95vw;
+        width: 90vw;
         text-align: center;
         min-height: 100vh;
         background-image: contain;
