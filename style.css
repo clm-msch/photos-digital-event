@@ -17,6 +17,17 @@ html{
     padding: 25px;
     }
 
+.navbar a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    gap: 5px;
+    font-weight: bold;
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+}
+
 /* 1ere section */
 
 body {
@@ -25,10 +36,9 @@ body {
     background-image: url(./img/paper_3.png);
     z-index: 0;
     font-family: 'Rockwell', serif;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     margin: 0;
-   
-
+    background-color: black;
 }
 .ligne img {
     width: 100vw;
