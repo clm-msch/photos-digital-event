@@ -684,7 +684,7 @@ body {
         text-align: center;
         min-height: 100vh;
         background-image: contain;
-        padding: 20px;
+        /* padding: 20px; */
         /* height: 100vh; */
         background-image: url(./img/cadran-mobile.png);
     }
